@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+
+@keyframes colores {
+    0%   {background-color: rgb(255, 0, 0);}
+    25%  {background-color: rgb(255, 123, 0);}
+    50%  {background-color: rgb(8, 212, 126);}
+    100% {background-color: rgb(240, 230, 6);}
+}
+@keyframes colores1 {
+    0%   {background-color: rgb(59, 29, 114);}
+    25%  {background-color: rgb(187, 47, 199);}
+    50%  {background-color: rgba(232, 218, 24, 1);}
+    100% {background-color: rgb(30, 223, 223);}
+}
+@keyframes colores2 {
+    0%   {background-color: rgb(193, 196, 11);}
+    25%  {background-color: rgb(47, 189, 199);}
+    50%  {background-color: rgb(177, 27, 110);}
+    100% {background-color: rgb(235, 72, 22);}
+}
+
+#animacion{
+	height: 300px;
+  width: 990px;
+}
+
+* {
+    margin: auto;
+    padding: auto;
+}
+
+/* Fondo de la pagina */
+
+.parallax {
+    /* La imagen usada */
+    background-image: url("../Imagenes/fondoNL.gif");
+
+    /* Set a specific height */
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Clase de la cabecera */
+
+header.NuevosL {
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    background: #353532;
+}
+
+/* Estilo de la lista ordenada */
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:' Gloria Hallelujah', cursive ;
+    background-color:#F3F344;
+
+}
+
+/* Estilo de la lista */
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3F344;
+}
+
+li {
+  float: left;
+  color: black;
+
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+  font-size:21px;
+}
+
+li a:hover {
+  background-color: #343431;
+  color:white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li {
+  border-right: 1px solid #bbb;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3F344;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F3F344;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #343431;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilo de la seccion principal Nuevos Lanzamientos */
+
+.principal{
+	display: flex;
+	flex-direction: row;
+}
+.imagenes{
+display: flex;
+flex-direction: row;
+
+}
+
+.container{
+	margin: 10px;
+  height: 550px;
+  align-content: stretch;
+	border: 5px solid black;
+	display: flex;
+  flex: 1 1 40%;
+  order: 2;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  animation-name: colores1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+  font-family: 'Bungee Shade', cursive;
+}
+
+.container1{
+	margin: 10px;
+  height: 550px;
+  align-content: stretch;
+	border: 5px solid black;
+	display: flex;
+  flex: 1 1 40%;
+  order: 2;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  animation-name: colores;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+  font-family: 'Bungee Shade', cursive;
+}
+
+.container2{
+	margin: 10px;
+  height: 550px;
+  align-content: stretch;
+	border: 5px solid black;
+	display: flex;
+  flex: 1 1 40%;
+  order: 2;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  animation-name: colores2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+  font-family: 'Bungee Shade', cursive;
+}
+
+#bloque{
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+}
+
+.reproductor{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 1%;
+  width: 40%;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid black;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+
+
+}
+/*Estilo del Reproductor*/
+#nombres{
+
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+/*Estilo de los Botones*/
+
+.botones{
+  height: 8%;
+  width: 8%;
+  display: inline-block;
+}
+
+
+
+/* Estilo de las Imagenes */
+
+#newrelease{
+  align-items: center;
+}
+
+.imgdiv{
+  width: 40%;
+  border: 5px solid black;
+  align-content: space-between;
+}

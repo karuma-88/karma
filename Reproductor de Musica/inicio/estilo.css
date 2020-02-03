@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#cabecera {
+    margin: auto;
+    padding: 25px;
+    background-color: #353532;
+    font-family: font-family: 'Bungee Shade', cursive;
+  }
+
+#bienvenidos {
+    z-index:1;
+    margin:1%;
+    width: 10%;
+    height: 10%;
+    padding-top: 35%;
+    padding-left: 55%;
+    padding-bottom:10%;
+    padding-right: 0%;
+    background-color: #343431;
+    font-family: font-family: 'Bungee Shade', cursive;
+    display: left;
+    border-radius: 1px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+    font-family: 'Bungee Shade', cursive;
+    flex-wrap: wrap;
+}
+.right {
+  margin:1%;
+  width: 20%;
+  height: 30%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom:5%;
+  padding-right: 5%;
+  float: right;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+
+  background-color: #f3f344;
+}
+right-box{
+    overflow: auto;
+    background-color: #22F628;
+    font-family: 'Bungee Shade', cursive;
+    height: 200px;
+    width: 500px;
+
+}
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F3F344;
+  }
+
+  li {
+    float: left;
+    color: black;
+
+  }
+
+ li a {
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+    font-size:21px;
+  }
+
+ li a:hover {
+    background-color: #343431;
+    color:white;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+li {
+    border-right: 1px solid #bbb;
+font-family: 'Gloria Hallelujah', cursive;
+  }
+  title{
+  font-family: 'Bungee Shade', cursive;
+}
+b{
+  color: white;
+  font-size:50px;
+}
+
+.parallax1{
+    width: 100%;
+    height:100vh;
+    background-image: url('../imagenes/japan1.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+.espacio{
+    padding: 20px 0 20px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+h1{
+    margin: 1%;
+padding-top: 20%;
+padding-left: 20%;
+padding-bottom:20%;
+padding-right: 10%;
+float: left;
+position: relative;
+z-index: 2;
+font-size:70px;
+font-weight: 300;
+font-family: 'Permanent Marker', cursive;
+color: #F3F344;
+background-color:#343431;
+border-radius: 1px;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+text-shadow: 0.1em 0.1em red
+}
+h1:hover{
+    color: #343431;
+    background-color:#F3F344;
+}
+h2{
+    margin: 100px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom:25px;
+    padding-right: 50px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    font-size:35px;
+    font-weight: 200px;
+    font-family: 'Bungee Shade', cursive;
+    color: #343431;
+    background-color:#F3F344;
+    border-radius: 1px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+    height: 550px;
+    width: 550px;
+    text-align: center;
+}
+canciones{
+    position: relative;
+    display: inline-block;
+}
+
+h3{
+font-size:30px;
+font-weight: 300;
+font-family: 'Bungee Shade', cursive;
+color: #F3F344;
+}
+h4{
+font-size:10px;
+font-weight: 300;
+font-family: 'Bungee Shade', cursive;
+color: #F3F344;
+}
+p{
+text-align: center;
+font-size:16px;
+font-weight: 300;
+font-family: 'Schoolbell', cursive;
+color: #F3F344;
+background-color: #353532;
+background-size: 0%;
+padding-left: 5%;
+padding-right:5%;
+padding-bottom:5%;
+padding-top:5%;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+
+}
+b{
+font-size:70px;
+font-weight: 300;
+font-family: 'Bungee Shade', cursive;
+color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F3F344;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F3F344;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #343431;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.discos{
+  vertical-align: center;
+  display:inline-block;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 1);
+}

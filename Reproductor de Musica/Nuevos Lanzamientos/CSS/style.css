@@ -1,0 +1,26 @@
+@keyframes colores {
+    0%   {background-color: rgb(209, 13, 13);}
+    25%  {background-color: rgb(236, 130, 31);}
+    50%  {background-color: rgb(219, 58, 106);}
+    100% {background-color: rgb(107, 74, 160);}
+}
+
+
+
+
+.container{
+	margin-left: 10px;
+	border: 5px solid black;
+	display: flex;
+  flex: 1 1 30%;
+  justify-content: space-between;
+  animation-name: colores;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.principal{
+	display: flex;
+	background: purple;
+	flex-direction: row;
+}

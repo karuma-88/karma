@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0%;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family:' Gloria Hallelujah', cursive ;
+  background-color:#F3F344;
+
+}
+
+li {
+  float: left;
+}
+
+li.ajustes{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 21px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #353532 ;
+  color:white;
+}
+
+.active {
+background-color: #4CAF50;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+title{
+  font-family: cursive;
+}
+
+header.nuevoslanzamientos {
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 25px;
+  background: #353532;
+}
+
+main.nuevoslanzamientos {
+  margin: auto;
+  padding: 500px 500px;
+  display: flex;
+  font-family: 'Bungee Shade', cursive;
+  background-size: cover;
+}
+
+section.nuevoslanzamientos {
+  margin: auto;
+  display: flex;
+  font-family: 'Bungee Shade', cursive;
+}
+
+article.lomashot{
+  margin: 10px 270px 10px 10px;
+  width: 300px;
+  height: 300px;
+  flex: 0 2 10%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: width 4s;
+  animation-name: colores;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align:center;
+  font-family: 'Bungee Shade', cursive;
+  background: rgb(29, 56, 114);
+}
+
+article.imageneshot{
+
+  padding: 10px 10px;
+  justify-content:space-between;
+  flex: 0 3 10%;
+}
+
+aside {
+  position: fixed;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../Imagenes/float.gif");
+
+  /* Set a specific height */
+  height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-responsive {
+
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article.hiphop {
+  margin: 10px 270px 10px 10px;
+  width: 300px;
+  height: 300px;
+  flex: 0 2 10%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: width 4s;
+  animation-name: colores1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align:center;
+  font-family: 'Bungee Shade', cursive;
+  background: rgb(45, 119, 55);
+}
+
+article.merengue {
+  margin: 10px 270px 10px 10px;
+  width: 300px;
+  height: 300px;
+  flex: 0 2 10%;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: width 4s;
+  animation-name: colores2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align:center;
+  font-family: 'Bungee Shade', cursive;
+  background: rgb(59, 29, 114);
+}
+
+article:hover {
+  width: 990px;
+  height: 300px;
+}
+
+#transicion {transition-timing-function: ease-in;}
+
+@keyframes colores {
+  0%   {background-color: rgb(209, 13, 13);}
+  25%  {background-color: rgb(236, 130, 31);}
+  50%  {background-color: rgb(219, 58, 106);}
+  100% {background-color: rgb(107, 74, 160);}
+}
+@keyframes colores1 {
+  0%   {background-color: rgb(59, 29, 114);}
+  25%  {background-color: rgb(47, 82, 199);}
+  50%  {background-color: rgb(117, 27, 177);}
+  100% {background-color: rgb(163, 11, 100);}
+}
+@keyframes colores2 {
+  0%   {background-color: rgb(176, 179, 28);}
+  25%  {background-color: rgb(47, 189, 199);}
+  50%  {background-color: rgb(177, 27, 110);}
+  100% {background-color: rgb(209, 79, 39);}
+}
+
+#animacion{
+	height: 300px;
+  width: 990px;
+}
+
+#animacion img{
+  position: sticky;
+  transition: all .6s ease-in;
+}
+
+
+#animacion:hover img.imagenNO{
+  opacity: 1;
+
+  filter:alpha(overflow=0%);
+}
+
+#animacion:hover img.imagen {
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+
+
+#animacion .imagenNO {
+  opacity: 0;
+  visibility: visible;
+
+}
+#animacion .imagen {
+  visibility: visible;
+}
+
+#button .contenedores{display:none;}
